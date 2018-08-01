@@ -1,8 +1,8 @@
 ### udacity DLND Project 5 :Face generation.
 
 
-  在该项目中，将使用对抗生成神经网络（GAN）生成新的人脸图像，具体采用了深度卷积生成对抗网络结构（DCGAN）。
-  如果想要更好的训练效果，请参考训练GAN的经验总结：https://github.com/soumith/ganhacks
+  在该项目中，将使用对抗生成神经网络（GAN）生成新的人脸图像，具体采用了深度卷积生成对抗网络结构（DCGAN）。<br>
+  如果想要更好的训练效果，请参考训练GAN的经验总结：https://github.com/soumith/ganhacks<br>
 
 
 注意我们的参数最好设置成2的倍数，比如4、8、16、32、64。这样可以让tensorflow在计算的时候进行优化，让你的模型训练更加迅速。Batch size 主要影响的是你GAN生成的图片质量，下面给你一些关于参数设置的建议：
